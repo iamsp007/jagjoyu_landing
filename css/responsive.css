@@ -1,13 +1,247 @@
-@media(min-width:768px) {
-
-}
 
 @media(max-width:1024px){
     html{ font-size:55%} 
-
 }
-@media(max-width:991px){
-}
-@media(max-width:767px){
 
+@media only screen and (max-width: 1400px) {
+    .parallax .owl-controls .owl-nav .owl-prev,
+    .feedback-main .owl-controls .owl-nav .owl-prev {
+        margin-left: 3%;
+    }
+    .parallax .owl-controls .owl-nav .owl-next,
+    .feedback-main .owl-controls .owl-nav .owl-next {
+        margin-right: 3%;
+    }
+    .testimonials .owl-stage .owl-item .item {
+        height: 82%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .footer-section2 .social_media ul li a {
+        height: 30px;
+        width: 30px;
+        padding: 4px;
+    }
+    .gallery-items-details .baliBox {
+        padding: 1rem;
+    }
+    .gallery-items-details .baliBox h4 {
+        font-size: 1.5rem;
+        line-height: 22px;
+    }
+    .gallery-items-details .baliBox p {
+        margin-bottom: 0;
+        font-size: 1.3rem;
+        line-height: 20px;
+    }
+    .home-gallery .photo-gallery .item .baliBox p {
+        min-height: 196px;
+    }
+    .feedback-box {
+        padding: 3rem 2rem;
+    }
+
+    .testimonials .owl-stage .owl-item .item {
+        height: 84%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .home-gallery .photo-gallery .item .baliBox p {
+        min-height: 112px;
+    }
+    
+}
+
+@media only screen and (max-width: 992px) {
+    .gallery-items-details .baliBox {
+        padding: 2rem;
+    }
+    .gallery-items-details .baliBox h4 {
+        font-size: 1.6rem;
+    }
+    .home-gallery .photo-gallery .item .baliBox p {
+        min-height: 140px;
+    }
+    .file-dawnload figure {
+        width: 27px;
+        bottom: 10px;
+        right: 12px;
+    }
+    input.form-field, select.form-field, textarea.form-field {
+        padding: 1.5rem 2rem;
+    }
+    .footer-section2 .footer_section h4,
+    .footer-section2 .social_media h4 {
+        margin-bottom: 0rem;
+    }
+    .adventure-banner .container {
+        justify-content: end;
+    }
+    .parallax .owl-controls .owl-nav .owl-prev,
+    .feedback-main .owl-controls .owl-nav .owl-prev {
+        margin-left: 0%;
+    }
+    .parallax .owl-controls .owl-nav .owl-next,
+    .feedback-main .owl-controls .owl-nav .owl-next {
+        margin-right: 0%;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .parallax .owl-controls .owl-nav .owl-prev,
+    .feedback-main .owl-controls .owl-nav .owl-prev {
+        margin-left: 3%;
+    }
+    .parallax .owl-controls .owl-nav .owl-next,
+    .feedback-main .owl-controls .owl-nav .owl-next {
+        margin-right: 3%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .adventure-banner  .container,
+    .domestic-banner .container,
+    .international-banner .container {
+        justify-content: center;
+    }
+    .home-gallery .photo-gallery .item .baliBox p {
+        min-height: auto;
+    }
+    .home-gallery .photo-gallery .owl-carousel .owl-stage {
+        display: flex;
+    }
+    .home-gallery .photo-gallery .owl-carousel .owl-stage .item {
+        height: 100%;
+    }
+    .home-gallery .owl-controls .owl-nav .owl-prev,
+    .home-gallery .owl-controls .owl-nav .owl-next {
+        top: 250px;
+    }
+    .testimonials .owl-stage .owl-item .item {
+        height: 78%;
+    }
+    .parallax .owl-controls .owl-nav .owl-prev {
+        top: 300px;
+        margin-left: 0%;
+    }
+    .parallax .owl-controls .owl-nav .owl-next {
+        top: 300px;
+        margin-right: 0%;
+    }
+    .feedback-main .owl-controls .owl-nav .owl-prev {
+        margin-left: 0%;
+        top: 370px;
+    }
+    .feedback-main .owl-controls .owl-nav .owl-next {
+        margin-right: 0%;
+        top: 370px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .parallax .owl-controls .owl-nav .owl-prev {
+        margin-left: 3%;
+        top: 290px;    
+    }
+    .feedback-main .owl-controls .owl-nav .owl-prev {
+        margin-left: 3%;
+        top: 355px;
+    }
+    .parallax .owl-controls .owl-nav .owl-next {
+        margin-right: 3%;
+        top: 290px;    
+    }
+    .feedback-main .owl-controls .owl-nav .owl-next {
+        margin-right: 3%;
+        top: 355px;
+    }
+    .testimonials .owl-stage .owl-item .item {
+        height: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .home-gallery .owl-controls .owl-nav .owl-prev {
+        left: -24px;
+        top: 220px;
+    }
+    .home-gallery .owl-controls .owl-nav .owl-next {
+        right: -24px;
+        top: 220px;
+    }
+    .parallax .owl-controls .owl-nav .owl-prev {
+        margin-left: 10%;
+    }
+    .parallax .owl-controls .owl-nav .owl-next {
+        margin-right: 10%;
+    }
+    .feedback-main .owl-controls .owl-nav .owl-prev {
+        margin-left: 10%;
+    }
+    .feedback-main .owl-controls .owl-nav .owl-next {
+        margin-right: 10%;
+    }
+    
+}
+@media only screen and (max-width: 480px) {
+    .adventure-banner .home-sl-cont h1,
+    .domestic-banner .home-sl-cont h1,
+    .international-banner .home-sl-cont h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    .adventure-banner .caption p,
+    .domestic-banner .caption p,
+    .international-banner .caption p {
+        line-height: 24px;
+        font-size: 1.6rem;
+    }
+    .home-gallery .owl-controls .owl-nav .owl-prev {
+        background-size: 8px;
+        width: 45px;
+        height: 45px;
+        left: -22px;
+        top: 180px;
+    }
+    .home-gallery .owl-controls .owl-nav .owl-next {
+        background-size: 8px;
+        width: 45px;
+        height: 45px;
+        right: -22px;
+        top: 180px;
+    }
+    .parallax .owl-controls .owl-nav .owl-prev {
+        margin-left: 15%;
+        background-size: 8px;
+        width: 45px;
+        height: 45px;
+    }
+    .parallax .owl-controls .owl-nav .owl-next {
+        margin-right: 15%;
+        background-size: 8px;
+        width: 45px;
+        height: 45px;
+    }
+    .feedback-main .owl-controls .owl-nav .owl-prev {
+        margin-left: 15%;
+        background-size: 8px;
+        width: 45px;
+        height: 45px;
+    }
+    .feedback-main .owl-controls .owl-nav .owl-next {
+        margin-right: 15%;
+        background-size: 8px;
+        width: 45px;
+        height: 45px;
+    }
+    .testimonials .owl-stage .owl-item .item {
+        height: 80%;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .testimonials .owl-stage .owl-item .item {
+        height: 84%;
+    }
 }
