@@ -1082,3 +1082,40 @@ section.ourTure {
     width: 45px;
     height: 45px;
 }
+
+
+
+/* aboutus page css */
+.aboutus-banner {
+    background: url(../images/aboutus-banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 620px;
+    height: 620px;
+}
+.aboutus-banner .container {
+    justify-content: flex-start;
+}
+.aboutus-banner .home-sl-cont h1 {
+    font-size: 6rem;
+    line-height: 6rem;
+}
+.aboutus-banner .caption p {
+    max-width: 565px;
+}
+
+.about-us .about-second {
+    margin-top: 75px;
+}
+
+.about-us .aboutus-images img {
+    border-radius: 10px;
+}
+
+.about-us .aboutus-contant h5 {
+    margin: 20px 0px 10px;
+}
+.about-us .aboutus-contant ul {
+    font-size: 1.8rem;
+    line-height: 34px;
+}

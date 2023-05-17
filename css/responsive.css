@@ -44,6 +44,16 @@
     .testimonials .owl-stage .owl-item .item {
         height: 84%;
     }
+
+    .about-us .aboutus-contant h5 {
+        margin: 12px 0px 5px;
+    }
+    .about-us  .aboutus-contant p {
+        line-height: 26px;
+    }
+    .about-us .aboutus-contant ul {
+        line-height: 26px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -85,6 +95,16 @@
     .parallax .owl-controls .owl-nav .owl-next,
     .feedback-main .owl-controls .owl-nav .owl-next {
         margin-right: 0%;
+    }
+
+    .about-us .aboutus-contant h5 {
+        margin: 10px 0px 0px;
+    }
+    .about-us .aboutus-contant p {
+        line-height: 24px;
+    }
+    .about-us .aboutus-contant ul {
+        line-height: 24px;
     }
 }
 
@@ -137,6 +157,24 @@
         margin-right: 0%;
         top: 370px;
     }
+
+
+    .aboutus-banner .container {
+        justify-content: center;
+    }
+    .about-us .aboutus-contant {
+        margin-bottom: 25px;
+    }
+    .about-us .about-second {
+        margin-top: 50px;
+    }
+    .about-us .aboutus-contant h5 {
+        margin: 12px 0px 8px;
+    }
+    .about-us .aboutus-contant p {
+        line-height: 26px;
+    }
+    
 }
 
 @media only screen and (max-width: 640px) {
@@ -161,7 +199,6 @@
     }
 }
 
-
 @media only screen and (max-width: 576px) {
     .home-gallery .owl-controls .owl-nav .owl-prev {
         left: -24px;
@@ -185,6 +222,7 @@
     }
     
 }
+
 @media only screen and (max-width: 480px) {
     .adventure-banner .home-sl-cont h1,
     .domestic-banner .home-sl-cont h1,
@@ -239,7 +277,19 @@
     .testimonials .owl-stage .owl-item .item {
         height: 80%;
     }
+
+
+
+    .aboutus-banner .home-sl-cont h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    .aboutus-banner .caption p {
+        line-height: 24px;
+        font-size: 1.6rem;
+    }
 }
+
 @media only screen and (max-width: 350px) {
     .testimonials .owl-stage .owl-item .item {
         height: 84%;
